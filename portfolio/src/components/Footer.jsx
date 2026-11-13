@@ -8,7 +8,14 @@ export default function Footer() {
         <div className="flex items-center gap-4">
           <a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={18} /></a>
           <a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={18} /></a>
-          <a href={`mailto:${profile.email}`} aria-label="Email"><Mail size={18} /></a>
+   <a
+  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}`}
+  target="_blank"
+  rel="noreferrer"
+  aria-label="Email"
+>
+  <Mail size={18} />
+</a>
           <a href="#top" className="btn btn-ghost !px-4 !py-2"><ArrowUp size={16} />Back to top</a>
         </div>
       </div>
