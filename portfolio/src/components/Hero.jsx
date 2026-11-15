@@ -45,7 +45,7 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.2, duration: 0.7 }} className="mx-auto">
   <div className="rounded-full bg-gradient-to-br from-electric to-violet p-1 shadow-[0_0_80px_-10px_#4F7CFF]">
     <img src="/profile.jpg" alt="Photo of Himanshu"
-     className="w-80 h-80 object-cover rounded-none" />
+     className="w-80 h-80 object-cover rounded-xl" />
   </div>
 </motion.div>
       </div>
