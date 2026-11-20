@@ -241,13 +241,16 @@ export default function Contact() {
 
             {/* Email */}
             <li>
-              <a
-                className="flex items-center gap-3 hover:text-white"
-                href={`mailto:${profile.email}`}
-              >
-                <Mail size={18} />
-                {profile.email}
-              </a>
+             {/* Gmail - Opens Gmail Compose directly */}
+<a
+  className="flex items-center gap-3 hover:text-white"
+  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}`}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Mail size={18} />
+  {profile.email}
+</a>
             </li>
 
 
