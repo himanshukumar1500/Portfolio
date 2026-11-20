@@ -66,7 +66,7 @@ function Typed({ words }) {
 const socials = [
   [Github, profile.github, 'GitHub'],
   [Linkedin, profile.linkedin, 'LinkedIn'],
-  [Mail, `mailto:${profile.email}`, 'Email'],
+  [Mail, `https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}`, 'Email'],
 ]
 
 
